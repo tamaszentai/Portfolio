@@ -1,0 +1,75 @@
+/* .menu {
+  position: fixed;
+} */
+
+.container {
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  z-index: 300;
+}
+
+.button {
+  width: 35px;
+  right: 1rem;
+  position: absolute;
+}
+
+.bar1, .bar2, .bar3 {
+  margin: 6px 6px 6px auto;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  /* margin: 6px 0; */
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+  transition: 0.4s;
+}
+
+.change .bar2 {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+  transition: 0.4s;
+}
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  width: 100vw;
+  transition: .4s;
+  z-index: 200;
+}
+
+.sidebar.hidden {
+  /* display: none; */
+  right: -100%;
+}
+
+nav {
+  z-index: 1000;
+  right: 0;
+  position: absolute;
+  background-color: whitesmoke;
+  width: 70vw;
+  height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
