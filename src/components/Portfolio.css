@@ -21,9 +21,14 @@
   margin-top: 1rem;
   width: 15rem;
   cursor: pointer;
+  border: black solid 1px;
 }
 
 .project p {
   text-align: justify;
   padding: 1rem;
+}
+
+.project a {
+  color: gray;
 }

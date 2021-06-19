@@ -10,9 +10,9 @@ function Portfolio() {
         return (
           <div className='project' key={index}>
             <h3>{data.title}</h3>
-            <h5>{data.description}</h5>
             <a href={data.url} target="_blank"><img src={data.img} alt={data.alt}/></a>
-            <p>{data.text}</p>
+            <p>{data.description}</p>
+            <a href={data.url} target="_blank">{data.url}</a>
           </div>
         )
       })}
