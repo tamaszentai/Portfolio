@@ -19,16 +19,16 @@ const SideNav = (props) => {
         <nav>
           <ul>
             <li>
-            <AnchorLink href="#home" onClick={props.close}>Home</AnchorLink>
+            <AnchorLink href="#home" onClick={props.click}>Home</AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#portfolio" onClick={props.close}>Portfolio</AnchorLink>
+              <AnchorLink href="#portfolio" onClick={props.click}>Portfolio</AnchorLink>
             </li>
             <li>
-            <AnchorLink href="#about" onClick={props.close}>About</AnchorLink>
+            <AnchorLink href="#about" onClick={props.click}>About</AnchorLink>
             </li>
             <li>
-            <AnchorLink href="#contact" onClick={props.close}>Contact</AnchorLink>
+            <AnchorLink href="#contact" onClick={props.click}>Contact</AnchorLink>
             </li>
           </ul>
         </nav>

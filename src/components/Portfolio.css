@@ -1,8 +1,29 @@
 #portfolio h1 {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
 }
 
+.project {
+  margin: 2rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: black 2px 2px 6px;
+}
+
+.project h3 {
+  padding-top: 1rem;
+}
+
+
+
 .project img {
+  margin-top: 1rem;
   width: 15rem;
   cursor: pointer;
+}
+
+.project p {
+  text-align: justify;
+  padding: 1rem;
 }

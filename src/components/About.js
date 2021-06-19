@@ -1,22 +1,21 @@
-import React from 'react'
+import React from "react";
 
-import './About.css';
+import "./About.css";
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id="about">
       <h1>About</h1>
-      <h5>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum."{' '}
-      </h5>
+      <p>
+        Bright, capable and particularly keen to work with leading JavaScript
+        technologies and cloud infrastructure to produce technologies that will
+        not only be innovative in nature but will also have the scope and
+        prolonged vision to positively change the way we think about software
+        architectures and solutions, that can reduce costs and development time,
+        and fundamentally increase productivity.{" "}
+      </p>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

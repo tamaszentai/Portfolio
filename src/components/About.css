@@ -1,3 +1,13 @@
 #about {
   width: 100vw;
 }
+
+#about h1 {
+  margin-top: 3rem;
+  text-decoration: underline;
+}
+
+#about p {
+  margin: 2rem;
+  text-align: justify;
+}
