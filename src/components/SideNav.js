@@ -1,5 +1,4 @@
 import React from 'react'
-import { HashLink } from 'react-router-hash-link';
 import './SideNav.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 

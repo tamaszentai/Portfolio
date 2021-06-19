@@ -7,7 +7,7 @@ const Header = () => {
     <section id='home'>
       <div className='header'>
         <h1>Tamas Zentai</h1>
-        <h4>Web Developer</h4>
+        <h4>Full Stack Web Developer</h4>
         <img src={HeroImg} alt='Tamas Zentai' />
       </div>
     </section>

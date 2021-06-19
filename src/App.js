@@ -3,8 +3,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import './App.css'
 
-// import Toolbar from './components/Toolbar/Toolbar'
-// import SideDrawer from './components/SideDrawer/SideDrawer'
 import Backdrop from './components/Backdrop/Backdrop'
 import SideNav from './components/SideNav';
 import Header from './components/Header';
@@ -38,13 +36,6 @@ function App() {
       <Portfolio />
       <About />
       <Contact />
-
-      {/* <Toolbar drawerClickHandler={drawerToggleClickHandler} />
-      <SideDrawer show={sideDrawerOpen}/>
-      {backdrop}
-      <main style={{ marginTop: '64px' }}>
-        <p>Site content bullshit</p> */}
-      {/* </main> */}
     </div>
     </Router>
   )
