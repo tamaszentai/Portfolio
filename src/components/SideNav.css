@@ -62,10 +62,15 @@ nav {
 }
 
 nav ul {
+  margin-top: 30%;
   list-style: none;
 }
 
 nav li {
   padding: 2rem;
   font-size: 1.5rem;
+}
+
+nav a {
+  color: black;
 }

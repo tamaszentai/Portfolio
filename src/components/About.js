@@ -5,7 +5,7 @@ import "./About.css";
 const About = () => {
   return (
     <section id="about">
-      <h1>About</h1>
+      <h1>ABOUT</h1>
       <p>
         Bright, capable and particularly keen to work with leading JavaScript
         technologies and cloud infrastructure to produce technologies that will

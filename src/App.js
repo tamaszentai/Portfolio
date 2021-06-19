@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -23,6 +24,7 @@ function App() {
       <Portfolio />
       <About />
       <Contact />
+      <Footer />
     </div>
     </Router>
   )

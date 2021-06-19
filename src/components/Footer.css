@@ -1,0 +1,20 @@
+footer {
+    width: 100vw;
+    height: auto;
+    background-color: darkgray;
+}
+
+footer li {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 0 3rem;
+}
+
+footer p {
+    padding-top: 1rem;
+}
+
+footer a {
+    color: black;
+}

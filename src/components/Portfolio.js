@@ -5,7 +5,7 @@ import './Portfolio.css';
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>PORTFOLIO</h1>
       {PortfolioData.map((data, index) => {
         return (
           <div className='project' key={index}>
