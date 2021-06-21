@@ -2,17 +2,21 @@
   margin-top: 3rem;
   margin-bottom: 2rem;
   text-decoration: underline;
+  text-align: center;
+  color: #F0EBD8;
 }
 
 .project {
-  margin: 2rem;
-  background-color: white;
-  border-radius: 15px;
+  text-align: center;
+  margin: 5%;
+  background-color: #F0EBD8;
   box-shadow: black 2px 2px 6px;
+  color: #0D1321;
 }
 
 .project h3 {
   padding-top: 1rem;
+  color: #0D1321;
 }
 
 
@@ -30,5 +34,17 @@
 }
 
 .project a {
-  color: gray;
+  color: #3E5C76;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

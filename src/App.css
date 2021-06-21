@@ -2,13 +2,26 @@
 
 * {
   box-sizing: border-box;
-  text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
 body {
   background-color: whitesmoke;
+  margin: 0 auto;
+  background-color: #0d1321;
 }
+
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 

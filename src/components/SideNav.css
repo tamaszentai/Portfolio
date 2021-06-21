@@ -48,29 +48,44 @@
 }
 
 .sidebar.hidden {
-  /* display: none; */
   right: -100%;
 }
 
-nav {
+.side-nav {
   z-index: 1000;
   right: 0;
   position: absolute;
   background-color: whitesmoke;
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
-nav ul {
+.side-nav ul {
   margin-top: 30%;
   list-style: none;
 }
 
-nav li {
+.side-nav li {
   padding: 2rem;
   font-size: 1.5rem;
 }
 
-nav a {
+.side-nav a {
   color: black;
 }
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .button {
+    display: none;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -16,7 +16,7 @@ const SideNav = (props) => {
         </div>
       </div>
       <div className={props.clicked ? 'sidebar' : 'sidebar hidden'}>
-        <nav>
+        <div className="side-nav">
           <ul>
             <li>
             <AnchorLink href="#home" onClick={props.click}>Home</AnchorLink>
@@ -31,7 +31,7 @@ const SideNav = (props) => {
             <AnchorLink href="#contact" onClick={props.click}>Contact</AnchorLink>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
       </React.Fragment>
   )

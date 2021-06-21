@@ -1,7 +1,8 @@
 footer {
     width: 100vw;
     height: auto;
-    background-color: darkgray;
+    background-color: #748cab;
+    text-align: center;
 }
 
 footer li {
@@ -16,5 +17,5 @@ footer p {
 }
 
 footer a {
-    color: black;
+    color: #0D1321;
 }

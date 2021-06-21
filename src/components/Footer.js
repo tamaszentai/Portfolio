@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="https://github.com/tamaszentai" target="_blank"><i className="fa fa-github"></i></a>
         </li>
       </ul>
-      <p>© 2020 Tamas Zentai</p>
+      <p>© 2021 Tamás Zentai</p>
     </footer>
   );
 };
