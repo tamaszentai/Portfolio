@@ -9,18 +9,31 @@
   color: #0D1321;
 }
 
-.header {
+.header-wrapper {
   text-align: center;
-  padding-bottom: 2rem;
 }
 
-.header h1 {
+.header-text-container {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.header-text-container h1 {
   margin: 0;
   padding-top: 3rem;
-  font-size: 2rem;
+  font-size: 4vh;
 }
 
-.header img {
+.header-text-container h4 {
+  font-size: 2.5vh;
+}
+
+.header-image-container {
+  width: auto;
+  padding-bottom: 5%;
+}
+
+.header-image-container img {
   margin-top: 2rem;
   width: 90%;
   box-shadow: black 2px 2px 6px;
@@ -34,8 +47,33 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .header img {
-    max-width: 30%;
+  .header-wrapper {
+    display: flex;
+    text-align: initial;
+    align-items: center;
+    justify-content: center
+  }
+
+  .header-text-container {
+    flex-basis: 70%;
+    text-align: center;
+  }
+
+  .header-text-container h1 {
+
+  }
+  .header-text-container h4 {
+
+  }
+
+  .header-image-container {
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: 5%;
+  }
+
+  .header-image-container img{
+    max-width: 100%;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -43,7 +81,7 @@
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .header img {
-    max-width: 20%;
+  .header-image-container img {
+    max-width: 20vw;
   }
 }

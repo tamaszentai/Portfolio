@@ -1,12 +1,14 @@
 #contact {
     width: 100vw;
     color: #F0EBD8;
+    background-color: #1D2D44;
   }
 
 #contact h1 {
     text-decoration: underline;
     text-align: center;
     color: #F0EBD8;
+    padding-top: 2rem;
 }
 
 form {
@@ -33,4 +35,10 @@ textarea {
     margin: 0 auto;
     height: 10rem;
     width: 80%;
+}
+
+.contact-form {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    max-width: 1200px;
 }

@@ -6,6 +6,7 @@ function Portfolio() {
   return (
     <section id="portfolio">
       <h1>PORTFOLIO</h1>
+      <div className="project-wrapper">
       {PortfolioData.map((data, index) => {
         return (
           <div className='project' key={index}>
@@ -16,6 +17,7 @@ function Portfolio() {
           </div>
         )
       })}
+      </div>
     </section>
   )
 }

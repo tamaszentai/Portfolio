@@ -1,15 +1,16 @@
 #about {
   width: 100vw;
   color: #F0EBD8;
+  background-color: #3E5C76;
 }
 
 #about h1 {
-  margin-top: 3rem;
   text-decoration: underline;
   text-align: center;
+  padding-top: 2rem;
 }
 
 #about p {
-  margin: 6%;
+  padding: 6%;
   text-align: justify;
 }
