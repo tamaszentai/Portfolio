@@ -19,6 +19,7 @@ const Nav = (props) => {
           <AnchorLink href="#contact">CONTACT</AnchorLink>
         </li>
       </ul>
+      <i className={props.isNav ? "fa fa-caret-left" : "fa fa-caret-right"}></i>
     </nav>
   );
 };

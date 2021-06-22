@@ -41,6 +41,19 @@
     cursor: pointer;
 }
 
+.nav i {
+    top: 50%;
+    right: 1%;
+    position: absolute;
+    font-size: 2rem;
+    color: #0D1321;
+    transition: 0.3s;
+}
+
+.fa.fa-caret-left:hover {
+    cursor: pointer;
+}
+
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {}
 /* Small devices (portrait tablets and large phones, 576px and up) */

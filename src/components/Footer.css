@@ -19,3 +19,7 @@ footer p {
 footer a {
     color: #0D1321;
 }
+
+footer a:hover {
+    color: #F0EBD8;
+}

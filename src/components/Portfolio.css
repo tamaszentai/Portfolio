@@ -39,6 +39,10 @@
   color: #3E5C76;
 }
 
+.project a:hover {
+  color: #748cab;
+}
+
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {}
 /* Small devices (portrait tablets and large phones, 576px and up) */
