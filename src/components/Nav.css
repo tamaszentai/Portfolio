@@ -18,12 +18,12 @@
 
 .nav li {
     padding: 2rem;
-    font-size: 1.5rem;
 }
 
 .nav a {
     text-decoration: none;
     color: #0D1321;
+    font-size: 100%;
 }
 
 .nav a:hover {
@@ -42,26 +42,28 @@
 }
 
 /* Extra small devices (phones, 576px and down) */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px){
     .nav {
         display: none;
     }
 }
-/* Small devices (portrait tablets and large phones, 576px and up) */
-@media only screen and (min-width: 576px) {}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     .nav li {
         font-size: 1rem;
     }
 
     .nav.closed {
-        left: -9rem;
+        left: -10rem;
         transition: .3s;
     }
 }
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   
