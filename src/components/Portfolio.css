@@ -24,13 +24,10 @@
   color: #0D1321;
 }
 
-
-
 .project img {
   margin-top: 1rem;
   width: 90%;
   cursor: pointer;
-  border: black solid 1px;
 }
 
 .project p {
@@ -51,6 +48,12 @@
   .project-wrapper {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .project img {
+    margin-top: 1rem;
+    width: 22vw;
+    cursor: pointer;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
