@@ -4,6 +4,7 @@ import SpaceX from "../assets/spacex.png";
 import BrainTeaser from "../assets/brainteaser.png";
 import Portfolio from "../assets/portfolio.png";
 import EHR from "../assets/ehr.png";
+import WeatherApp from "../assets/weatherapp.png";
 
 import express from '../assets/technologies/express.svg';
 import firebase from '../assets/technologies/firebase.svg';
@@ -13,6 +14,7 @@ import nuxt from '../assets/technologies/nuxt.svg';
 import postgresql from '../assets/technologies/postgresql.svg';
 import react from '../assets/technologies/react.svg';
 import strapi from '../assets/technologies/strapi.svg';
+import typescript from '../assets/technologies/typescript.svg';
 import vue from '../assets/technologies/vue.svg';
 
 
@@ -51,6 +53,14 @@ export const PortfolioData = [
     url: "https://github.com/tamaszentai/EHR",
     alt: "EHR preview",
     description: "This was a given coding challenge from a company to make a REST API only but I felt this is a good project so I developed a simple React based front-end to it. For this project I used Node.js, Express.js, PostgreSQL and React."
+  },
+  {
+    technologies: [react, typescript, firebase],
+    title: "Mind-Blowing Weather App",
+    img: WeatherApp,
+    url: "https://mind-blowing-weatherapp.web.app",
+    alt: "Mind-Blowing Weather App preview",
+    description: "A mobile-like weather app. At the start, the app asks for the user's location and based on the location shows the current weather with some extra information. The user can type different city names and get the local weather information too. The key goal of this project is to practice TypeScript and React."
   },
   {
     technologies: [vue, node, express, mongodb],

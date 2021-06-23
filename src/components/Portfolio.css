@@ -11,8 +11,6 @@
   color: #F0EBD8;
 }
 
-
-
 .project {
   text-align: center;
   margin: 5%;
@@ -35,11 +33,6 @@
 .project p {
   text-align: justify;
   padding: 10%;
-}
-
-.bottom-wrapper {
-  position: absolute;
-  bottom: 0;
 }
 
 .project .technology-stack img {
