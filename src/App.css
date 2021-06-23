@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
 }
 
+.wrapper.closed {
+  overflow: hidden;
+}
+
 
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {}

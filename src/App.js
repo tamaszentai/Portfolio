@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <div className="wrapper">
+      <div className={sideDrawerOpen ? "wrapper closed" : "wrapper"}>
       <Nav isNav={isNav} navToggleHandler={navToggleHandler}/>
       <SideNav click={drawerToggleClickHandler} clicked={sideDrawerOpen}/>
       <Header />

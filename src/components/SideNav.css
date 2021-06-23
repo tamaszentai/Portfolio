@@ -49,6 +49,7 @@
   width: 100vw;
   transition: .4s;
   z-index: 200;
+  touch-action: none;
 }
 
 .sidebar.hidden {
