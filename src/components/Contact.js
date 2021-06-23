@@ -53,11 +53,11 @@ const Contact = () => {
       <form className='contact-form' onSubmit={sendEmail}>
         <input type='hidden' name='contact_number'/>
         <label>Name:</label>
-        <input type='text' name='user_name' value={name} onChange={nameOnChangeHandler}/>
+        <input type='text' name='user_name' value={name} onChange={nameOnChangeHandler} required/>
         <label>Email:</label>
-        <input type='email' name='user_email' value={email} onChange={emailOnChangeHandler}/>
+        <input type='email' name='user_email' value={email} onChange={emailOnChangeHandler} required/>
         <label>Message:</label>
-        <textarea name='message' value={message} onChange={messageOnChangeHandler}/>
+        <textarea name='message' value={message} onChange={messageOnChangeHandler} required/>
         <input type='submit' value='Send' />
       </form>
     </section>
